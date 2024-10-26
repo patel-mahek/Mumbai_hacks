@@ -1,0 +1,75 @@
+.Page1{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;   */
+  text-align: center;        
+  height: 100vh;
+}
+
+.left, .right {
+  margin-top: 0px; /* Removes any additional spacing */
+  padding-top: 0px;
+}
+
+.left{
+  /* position: relative;9 */
+  /* transform: translate(-50%, -50%);  */
+  text-align: center;              
+  font-size: 50px;
+  transition: transform 0.4s ease;  
+  padding: 10px;
+  /* max-height: 200px; */
+}
+
+.left:hover .dash_c {
+  opacity: 1;
+  visibility: visible;
+}
+
+.left:hover + .right{
+  opacity: 0; 
+  visibility: hidden; 
+}
+
+/* .left:hover{
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.6); 
+  cursor: pointer;
+  transform: translateY(-10px);
+  position: absolute;
+  top: 50%; 
+  left: 28%;
+} */
+
+.right{
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Aligns the content inside .right to the top */
+  position: relative;
+  left: 10%;
+  top:5%;
+  /* top:10px; */
+  padding: 0px;
+  /* margin-top: 20px; */
+  /* transition: transform 0.3s ease;  */
+  margin-bottom: 7%;
+}
+
+.right 
+.content{
+  margin-top: 30px;
+}
+
+/* .content:hover {
+ 
+   border-radius: 30px; 
+} */
+
+.Page2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  text-align: center;        
+  /* font-size: 40px; */
+  height: 100vh;
+}

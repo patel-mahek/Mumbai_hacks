@@ -1,0 +1,32 @@
+#hello{
+    font-size: 42px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 5px;
+    font-weight: 600;
+    border: 1px solid rgb(206, 206, 247);
+    border-radius: 10px;
+    background-color:#161f3d ;
+    color: rgb(206, 206, 247);
+    transition: transform 0.3s ease; 
+}
+
+#hello:hover{
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3); 
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+#time{
+    font-size: 30px;
+    padding-top: 0px;
+    margin: 0px;
+    font-weight: 100;
+}
+
+#content_greet{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+

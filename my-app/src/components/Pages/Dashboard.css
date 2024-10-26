@@ -1,0 +1,111 @@
+.dashboard-container {
+    padding: 1.5rem;
+  }
+  
+  .header {
+    margin-bottom: 2rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .welcome-message {
+    color: #4b5563; 
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .stat-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .stat-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .stat-label {
+    font-size: 0.875rem;
+    font-weight: medium;
+    color: #4b5563;
+  }
+  
+  .stat-value {
+    margin-top: 0.5rem;
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #1f2937; 
+  }
+  
+  .stat-icon-container {
+    padding: 0.75rem;
+    background-color: #e0e7ff; 
+    border-radius: 9999px;
+  }
+  
+  .stat-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #6366f1; 
+  }
+  
+  .stat-change {
+    margin-top: 1rem;
+  }
+  
+  .change-increase {
+    color: #22c55e; 
+    font-size: 0.875rem;
+    font-weight: medium;
+  }
+  
+  .change-text {
+    color: #4b5563; 
+    font-size: 0.875rem;
+    margin-left: 0.5rem;
+  }
+  
+  .charts-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .chart-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .chart-title {
+    font-size: 1.125rem;
+    font-weight: semi-bold;
+    margin-bottom: 1rem;
+  }
+  
+  .cultural-calendar-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .calendar-title {
+    font-size: 1.125rem;
+    font-weight: semi-bold;
+    margin-bottom: 1rem;
+  }
+  

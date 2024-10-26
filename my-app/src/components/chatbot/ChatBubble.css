@@ -1,0 +1,21 @@
+.chat-bubble {
+    max-width: 80%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  .chat-bubble.bot {
+    background-color: #f1f1f1;
+    align-self: flex-start;
+    color: #333;
+  }
+  
+  .chat-bubble.user {
+    background-color: #3b4cca;
+    align-self: flex-end;
+    color: white;
+  }
+  

@@ -1,0 +1,130 @@
+/* Container Layout */
+.leads-container {
+  padding: 1.5rem; /* 24px */
+}
+
+/* Header Styles */
+.leads-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem; /* 32px */
+}
+
+.leads-title {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 700;
+  color: #1a202c;
+}
+
+.leads-subtitle {
+  color: #718096;
+  margin-top: 0.25rem;
+}
+
+/* Action Buttons */
+.leads-actions {
+  display: flex;
+  gap: 0.75rem; /* 12px */
+}
+
+.import-leads-btn,
+.add-lead-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem; /* 8px 16px */
+  border-radius: 0.5rem; /* 8px */
+  font-size: 0.875rem; /* 14px */
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.import-leads-btn {
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+}
+
+.import-leads-btn:hover {
+  background-color: #f7fafc;
+}
+
+.add-lead-btn {
+  background-color: #4c51bf;
+  color: #fff;
+}
+
+.add-lead-btn:hover {
+  background-color: #434190;
+}
+
+/* Content Layout */
+.leads-content {
+  display: flex;
+  gap: 1.5rem; /* 24px */
+}
+
+.leads-table {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 0.5rem; /* 8px */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Bar Styles */
+.search-bar {
+  padding: 1rem; /* 16px */
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-input-wrapper {
+  position: relative;
+  flex: 1;
+  max-width: 300px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.75rem; /* 12px */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #a0aec0;
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem 0.5rem 2rem; /* 8px 12px 8px 32px */
+  padding-right: 100px;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem; /* 8px */
+  transition: border-color 0.2s ease;
+}
+
+.search-input:focus {
+  border-color: #5a67d8;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(90, 103, 216, 0.1);
+}
+
+.filter-btn {
+  padding: 0.5rem; /* 8px */
+  border-radius: 0.5rem; /* 8px */
+  color: #718096;
+  transition: background-color 0.2s ease;
+  margin-left: 900px;
+}
+
+.filter-btn:hover {
+  background-color: #f7fafc;
+}
+
+/* Lead Profile Sidebar */
+.lead-profile {
+  width: 24rem; /* 384px */
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

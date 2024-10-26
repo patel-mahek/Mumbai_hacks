@@ -1,0 +1,17 @@
+/* RegionalMap.css */
+
+.map-container {
+    width: 100%;
+    padding-top: 56.25%; /* This maintains the aspect ratio (16:9) */
+    background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
+    border-radius: 8px; /* Equivalent to rounded-lg */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .map-text {
+    color: #6b7280; /* Equivalent to text-gray-500 */
+    font-size: 1rem; /* A reasonable font size for the text */
+  }
+  

@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+}
+
+.ai-insights-container {
+    padding: 24px;
+}
+
+.header {
+    margin-bottom: 32px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.subtitle {
+    color: #4b5563;
+}
+
+.trends-recommendations {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+@media (min-width: 768px) {
+    .trends-recommendations {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.trends-section,
+.recommendations-section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+    color: #4f46e5;
+    margin-right: 8px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.trends-list,
+.recommendations-list {
+    margin-top: 16px;
+}
+
+.trend-item,
+.recommendation-item {
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.trend-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.trend-name {
+    font-weight: 500;
+}
+
+.trend-growth {
+    color: #22c55e;
+}
+
+.trend-description,
+.trend-region {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.product-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.product-tag {
+    padding: 4px 8px;
+    background-color: #e6f0ff;
+    color: #4f46e5;
+    border-radius: 9999px;
+    font-size: 12px;
+}
+
+.action-items-section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    margin-top: 24px;
+}
+
+.action-items-list {
+    margin-top: 16px;
+}
+
+.action-item {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.action-indicator {
+    height: 8px;
+    width: 8px;
+    background-color: #4f46e5;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.action-text {
+    color: #374151;
+}

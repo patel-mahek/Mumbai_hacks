@@ -1,0 +1,106 @@
+.table-container {
+    overflow-x: auto;
+  }
+  
+  .table {
+    min-width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-head {
+    background-color: #f9fafb;
+  }
+  
+  .table-header {
+    padding: 0.75rem;
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #6b7280;
+    text-transform: uppercase;
+  }
+  
+  .table-body {
+    background-color: white;
+  }
+  
+  .table-row:hover {
+    background-color: #f3f4f6;
+    cursor: pointer;
+  }
+  
+  .table-cell {
+    padding: 1rem;
+    white-space: nowrap;
+    color: #374151;
+  }
+  
+  .lead-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .lead-initials {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #d1fae5;
+    color: #10b981;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .state-info, .lead-email {
+    color: #6b7280;
+  }
+  
+  .progress-bar-bg {
+    width: 4rem;
+    height: 0.5rem;
+    background-color: #e5e7eb;
+    border-radius: 9999px;
+    margin-right: 0.5rem;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #10b981;
+    border-radius: 9999px;
+  }
+  
+  .status-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .status-hot {
+    background-color: #fee2e2;
+    color: #b91c1c;
+  }
+  
+  .status-warm {
+    background-color: #fef3c7;
+    color: #b45309;
+  }
+  
+  .actions-cell {
+    text-align: right;
+  }
+  
+  .action-button {
+    background: none;
+    border: none;
+    color: #4b5563;
+    cursor: pointer;
+    margin-left: 0.75rem;
+  }
+  
+  .action-button:hover {
+    color: #000000;
+  } 
+  

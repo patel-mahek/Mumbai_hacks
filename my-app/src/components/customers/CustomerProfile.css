@@ -1,0 +1,98 @@
+.customer-profile-container {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-icon {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 9999px;
+    background-color: #e0e7ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-icon-text {
+    font-size: 1.5rem;
+    color: #4f46e5;
+    font-weight: 500;
+  }
+  
+  .profile-info {
+    margin-left: 1rem;
+  }
+  
+  .customer-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #1f2937;
+  }
+  
+  .cultural-segment {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .profile-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .section-heading {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6b7280;
+    margin-bottom: 0.75rem;
+  }
+  
+  .contact-info, .cultural-info, .contact-times, .purchases, .preferences {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .contact-item, .time-item, .purchase-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.875rem;
+  }
+  
+  .icon {
+    height: 1rem;
+    width: 1rem;
+    color: #9ca3af;
+    margin-right: 0.75rem;
+  }
+  
+  .price {
+    color: #6b7280;
+  }
+  
+  .info-item {
+    font-size: 0.875rem;
+  }
+  
+  .info-label {
+    font-weight: 500;
+  }
+  
+  .tag {
+    padding: 0.25rem 0.75rem;
+    background-color: #eef2ff;
+    color: #4f46e5;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+  }
+  

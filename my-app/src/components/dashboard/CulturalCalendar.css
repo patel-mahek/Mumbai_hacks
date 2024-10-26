@@ -1,0 +1,51 @@
+/* CulturalCalendar.css */
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.event-card {
+  padding: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.event-card:hover {
+  background-color: #f9fafb;
+}
+
+.event-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.event-name {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #111827;
+}
+
+.event-region {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.event-description {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.event-date {
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin-top: 8px;
+}

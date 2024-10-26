@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+}
+
+.analytics-container {
+    padding: 24px;
+}
+
+.header {
+    margin-bottom: 32px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.subtitle {
+    color: #4b5563;
+}
+
+.analytics-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+@media (min-width: 768px) {
+    .analytics-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.analytics-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+    color: #4f46e5;
+    margin-right: 8px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-content {
+    margin-top: 16px;
+}
+
+.risk-level {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.risk-text {
+    color: #6b7280;
+}
+
+.high-risk {
+    color: #ef4444; /* Red */
+    font-weight: 500;
+}
+
+.medium-risk {
+    color: #f59e0b; /* Yellow */
+    font-weight: 500;
+}
+
+.low-risk {
+    color: #22c55e; /* Green */
+    font-weight: 500;
+}
+
+.event-item {
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.event-title {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.event-description {
+    font-size: 14px;
+    color: #6b7280;
+}

@@ -1,0 +1,10 @@
+#fott{
+    position: fixed;           /* Fix the footer to the bottom of the page */
+    bottom: 0;                 /* Stick it to the bottom */
+    left: 0;                   /* Align it to the left edge */
+    right: 0;                  /* Align it to the right edge */
+    text-align: center;         /* Center the text horizontally */
+    background-color: #282c34; /* Example background color */
+    color: white;              /* Example text color */
+    padding: 10px 0;  
+}

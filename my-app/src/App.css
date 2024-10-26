@@ -1,0 +1,75 @@
+/* General layout styles */
+.app-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f9fafb;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Header styles */
+.app-header {
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+}
+
+.menu-button {
+  padding: 8px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header-icons {
+  display: flex;
+  align-items: right;
+  gap: 16px;
+}
+
+
+.notification-button {
+  position: relative;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.notification-dot {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.profile-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+/* Main content area */
+.app-main {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #f9fafb;
+  padding: 16px;
+}

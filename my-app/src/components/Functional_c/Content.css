@@ -1,0 +1,16 @@
+.content{
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 0px;
+    padding-top:30px;
+    padding-bottom: 50px;
+    border: 2px solid rgb(206, 206, 247);
+    border-radius: 30px;
+}
+
+.content:hover{
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.367); 
+    cursor: pointer;
+    transform: translateY(-10px);
+}
