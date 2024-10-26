@@ -12,14 +12,3 @@ code {
     monospace;
 }
 
-body {
-  height: 100vh;
-  background: linear-gradient(to right, #1f2f67, #161f3d, #000000);
-  color: rgb(206, 206, 247);
-}
-
-*{
-  padding: 0px;
-  margin: 0px;}
-
-/* color: rgb(161, 161, 251); */
