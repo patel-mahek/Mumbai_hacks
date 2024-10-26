@@ -7,6 +7,7 @@ import LeadsPage from './components/leads/LeadsPage';
 import Analytics from './components/Analytics';
 import AIInsights from './components/AIInsights';
 import ChatBot from './components/chatbot/ChatBot';
+import Landing_p from './components/Pages/Landing_p';
 import './App.css';
 
 function App() {

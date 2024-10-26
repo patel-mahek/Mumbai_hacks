@@ -1,4 +1,7 @@
 /* General layout styles */
+body{
+  background-color: black;
+}
 .app-container {
   display: flex;
   height: 100vh;
